@@ -1,6 +1,9 @@
 package database
 
-import "database/sql"
+import (
+	"database/sql"
+	"github.com/google/uuid"
+)
 
 type Course struct {
 	db          *sql.DB
